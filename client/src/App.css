@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+@import url('./components/styles/Components.css');
+
+@import url('./pages/styles/Auth.css');
+@import url('./pages/styles/Verification.css');
+@import url('./pages/styles/VerifyToken.css');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+

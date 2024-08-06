@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.box-verify{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 100px;
+    background: url('../../image/verify-bg.jpg');
+}
+.box-verify  * {
+    font-family: 'Montserrat', sans-serif;
+}
+.span-text{
+    font-size: 128px; /* 8em */
+}
+.email-verify{
+    font-size: 40px;
+    position: absolute;
+    top: 323px;
+    left: 930px;
+}

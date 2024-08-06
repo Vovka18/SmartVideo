@@ -1,0 +1,36 @@
+.box-auth{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 65px;
+    background: #0F0F0F;
+}
+
+.search{
+    width: 40%;
+    height: 35px;
+}
+
+.input-search{
+    width: 91%;
+    height: 100%; 
+    border-radius: 17.5px 0px 0px 17.5px;
+    border: 1px solid #303030;
+    background: #121212;
+    color: white;
+    padding-left: 15px;
+}
+
+.btn-search{
+    width: 9%;
+    height: 35px;
+    border-radius: 0px 17.5px 17.5px 0px;
+    border: 1px 0.5px 1px 1px solid #303030;
+    background: #222;
+}
+
+.input-search:focus{
+    outline: 0px;
+}

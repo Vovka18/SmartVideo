@@ -1,0 +1,141 @@
+.box-auth{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../image/auth-bg.jpg');
+}
+
+.auth{
+    width: 810px; /*42.2%*/
+    height: 399px;
+    background: rgba(108, 116, 48, 0.10);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+}
+
+.wrapper-auth{
+    width: 381px;
+    height: 100%;
+    position: absolute;
+    background: #F0EEE7;
+    transform: translateX(114%);
+}
+
+.loading{
+    width: 50px;
+    height: 30px;
+    background: #F0EEE7;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+.loading > svg{
+    width: 27px;
+    height: 24px;
+}
+
+.errorMessageBlock{
+    min-width: 100px;
+    height: 33px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    top: -50px;
+    left: 50% - 100px;
+    font-size: 15px;
+}
+
+.register, .login{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding: 37px 65px;
+}
+
+.login{
+    padding-bottom: 114px;
+}
+
+.auth h1{
+    font-weight: 800;
+    font-size: 2em;
+    color: #F0EEE7;
+    margin: 0px auto;
+    text-shadow: 0px 0px 10px #0D0D0D;
+}
+
+.button-sing{
+    width: 65px;
+    height: 31px;
+    background: #F0EEE7;
+    border-radius: 4px;
+    transition: .2s ease-in;
+    color: #0D0D0D;
+}
+
+.auth-inputs{
+    width: 263px;
+    height: 31px;
+    border-radius: 4px;
+    padding-left: 8px;
+    font-size: 15px;
+    color: #0D0D0D;
+    transition: .3s;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.auth-inputs::placeholder{
+    padding-top: 7px;
+    color: #6F6F6F;
+}
+.auth-inputs:hover, .button-sing:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.50);
+}
+.button-sing:active {
+    transform: scale(0.9);
+    
+}
+.auth-inputs:focus{
+    border: 0px;
+    outline: 0px;
+    transform: translateX(8px);
+}
+.auth-inputs-login:focus{
+    border: 0px;
+    outline: 0px;
+    transform: translateX(-8px);
+}
+
+.move-to-login, .move-to-register{
+    color: #F0EEE7;
+    font-size: 15px;
+    font-weight: 500;
+    user-select: none;
+    transition: .3s ;
+}
+
+.move-to-login:hover{
+    transition: .3s cubic-bezier(.21,0,.46,1.56);
+    transform: translateX(15px);
+}
+
+.move-to-register:hover{
+    transition: .3s cubic-bezier(.21,0,.46,1.56);
+    transform: translateX(-15px);
+}
+
+.shake-block {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
+}
